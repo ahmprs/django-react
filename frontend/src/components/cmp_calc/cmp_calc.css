@@ -1,0 +1,14 @@
+.title {
+  padding: 10px;
+  background-color: #123;
+  color: #def;
+  border: solid;
+  border-radius: 5px;
+  border-color: rgb(26, 49, 73);
+  border-width: 2px;
+  margin: 5px;
+}
+
+.center {
+  text-align: center;
+}
