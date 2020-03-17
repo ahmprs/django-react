@@ -10,6 +10,7 @@ class CmpSayHello extends Component {
 
 	callSayHello = () => {
 		let self = this;
+		// debugger;
 		$.post('say-hello', {}, (d, s) => {
 			console.log({ d, s });
 			self.setState({ srv_greeting: d['result'] });
