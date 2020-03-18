@@ -20,4 +20,5 @@ from app import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/say-hello/', views.sayHello),
+    path('api/add-numbers/', views.addNumbers),
 ]
